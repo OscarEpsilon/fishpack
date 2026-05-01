@@ -1,8 +1,8 @@
 {
   "description": "Multiarrow",
-  "supported_items": "minecraft:bow, minecraft:crossbow",
+  "supported_items": "minecraft:crossbow",
   "weight": 5,
-  "max_level": 255,
+  "max_level": 254,
   "min_cost": {
     "base": 1,
     "per_level_above_first": 1
@@ -19,14 +19,14 @@
     "minecraft:projectile_count": [
       {
         "effect": {
-      "type": "minecraft:add",
-      "value": {
-        "type": "minecraft:linear",
-        "base": 1.0,
-        "per_level_above_first": 1.0
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.0,
+            "per_level_above_first": 1.0
+          }
+        }
       }
-    }
-    }
     ]
   }
 }
