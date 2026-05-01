@@ -1,5 +1,5 @@
 {
-  "description": "Multiarrow",
+  "description": "Spread",
   "supported_items": "#fish:ranged",
   "weight": 5,
   "max_level": 254,
@@ -16,13 +16,13 @@
     "hand"
   ],
   "effects": {
-    "minecraft:projectile_count": [
+    "minecraft:projectile_spread": [
       {
         "effect": {
           "type": "minecraft:add",
           "value": {
             "type": "minecraft:linear",
-            "base": 1.0,
+            "base": 1,
             "per_level_above_first": 1.0
           }
         }
